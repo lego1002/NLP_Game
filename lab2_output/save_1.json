@@ -1,0 +1,23 @@
+{
+  "log": "世界因為一場巨大的電磁風暴而崩毀。\n\n你在某棟大學的機器人實驗大樓地下層醒來。\n備援燈光閃爍，空氣中帶著電路焦味。\n四周都是半毀的機器人設備。\n\n你的目標：在探索這座大樓時，建造一台能帶你逃離的求生機器人。\n\n按 ENTER 開始冒險。\n\n[Turn 1]\n你來到了避難室入口。緊急燈泡閃爍，牆上掛著破損的逃生地圖。你感到一絲不安。\n\n[選項] 調查逃生地圖\n\n[Turn 2]\n你進入避難室入口，緊急燈泡閃爍，牆上掛著破損的逃生地圖。你看到一扇通往走廊的門。\n\n[選項] 進入走廊\n\n[Turn 3]\n你在地下掩體入口遇到了一個懷疑是敵軍的人影，你必須迅速做出決定。\n\n[Quiz] Q: 你應該進一步調查或者立刻報告？\nAns: C, Correct: B\n\n[Turn 4]\n你來到避難室入口，緊急燈泡閃爍，牆上掛著破損的逃生地圖。你注意到地上有一個鑰匙串，看起來很古舊但可能有用。你要撿起來嗎？\n\n[選項] 撿起鑰匙串\n\n[Turn 5]\n你站在避難室入口，緊急燈泡閃爍，牆上掛著破損的逃生地圖。你回顧著在這個房間找到的鑰匙圈。\n\n[選項] 搜索房間\n\n[Turn 6]\nYou have reached the bunker entrance in Chapter 1. As a hardware professional, you are faced with a complex control panel that requires your expertise. You must answer a question correctly to proceed.\n\n[Quiz] Q: Which of the following is not a component of a robot?\nAns: D, Correct: D\n\n[Turn 7]\n你來到避難室入口，緊急燈泡閃爍，牆上掛著破損的逃生地圖。你感覺危險等級異常高，隨時可能有危險發生。\n\n[選項] 前往走廊\n",
+  "turn": 7,
+  "chapter": 1,
+  "location": "bunker_entrance",
+  "profession": "hardware",
+  "level": 3,
+  "hp": 2,
+  "knowledge_score": 3,
+  "robot_parts": {
+    "power": false,
+    "motor": false,
+    "sensors": false,
+    "control": false
+  },
+  "flags": {},
+  "inventory": [
+    "keychain"
+  ],
+  "danger_level": 10,
+  "is_game_over": false,
+  "is_win": false
+}

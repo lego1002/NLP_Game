@@ -1,0 +1,42 @@
+{
+  "model": "gpt-3.5-turbo",
+  "prompts": {
+    "start": "歡迎來到《Ashes of Campus：末日機器人實驗大樓》。\n\n請選擇：\n(1) 開始新冒險\n(2) 載入存檔\n\n輸入選項： ",
+    "opening": "世界因為一場巨大的電磁風暴而崩毀。\n\n你在合太大學生雞新館的地下秘密機器人實驗大樓醒來。\n備援燈光閃爍，空氣中帶著電路焦味。\n四周都是半毀的機器人設備。\n\n你的目標：在探索這座大樓時，建造一台能帶你逃離的求生機器人。\n\n按 ENTER 開始冒險。",
+    "explore": "你是一款末日機器人冒險遊戲引擎。\n請依照玩家狀態與房間資料生成一回合事件，並輸出 JSON。\n\n玩家狀態：{state_json}\n上一個動作：{action_text}\n房間資料：{room_json}\n\n請輸出 JSON：\n{\n  \"mode\": \"explore\",\n  \"narration\": \"<敘事>\",\n  \"choices\": [ {\"id\":\"xxx\", \"text\":\"...\"} ],\n  \"media\": {\"image_prompt\": null, \"audio_prompt\": null},\n  \"state_update_hint\": {\"location\": null, \"flags\": {}, \"inventory_add\": [], \"danger_delta\": 0}\n}",
+    "quiz": "你是一個機器人工程教學 AI。\n根據玩家狀態提出一題單選題，並輸出 JSON。\n\n玩家狀態：{state_json}\n\n請輸出 JSON：\n{\n  \"mode\": \"quiz\",\n  \"narration\": \"<敘事>\",\n  \"quiz\": {\n    \"question\": \"<問題>\",\n    \"options\": {\"A\":\"...\", \"B\":\"...\", \"C\":\"...\", \"D\":\"...\"},\n    \"correct\": \"A\",\n    \"explanation\": \"<解析>\"\n  },\n  \"choices\": [ {\"id\":\"quiz_answer_A\",\"text\":\"選擇 A\"} ],\n  \"state_update_hint\": {\"knowledge_delta\": 1, \"hp_delta\": 0}\n}",
+    "ending": "你完成了所有求生機器人的模組。\n它的頭燈劃破濃霧，引領你走出這棟廢墟大樓……\n\n按 ENTER 生成你的旅程總結。"
+  },
+  "rooms": {
+    "bunker_entrance": {
+      "name": "避難室入口",
+      "description": "緊急燈泡閃爍，牆上掛著破損的逃生地圖。",
+      "connections": ["corridor"]
+    },
+    "corridor": {
+      "name": "地下走廊",
+      "description": "狹長昏暗的走廊，裸露電線有時會冒火花。",
+      "connections": ["bunker_entrance", "power_room", "sensor_lab", "storage"]
+    },
+    "power_room": {
+      "name": "配電室",
+      "description": "燒焦味撲鼻而來，配電盤部分短路。",
+      "connections": ["corridor"]
+    },
+    "sensor_lab": {
+      "name": "感測器實驗室",
+      "description": "Lidar、IMU、攝影機散落，許多被破壞。",
+      "connections": ["corridor"]
+    },
+    "storage": {
+      "name": "雜物倉庫",
+      "description": "老舊工具與電子零件堆滿地板。",
+      "connections": ["corridor", "music_corner"]
+    },
+    "music_corner": {
+      "name": "唱片角落",
+      "description": "角落有台老式唱片機，蒙著厚厚的灰。",
+      "connections": ["storage"]
+    }
+  }
+}

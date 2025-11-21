@@ -1,0 +1,21 @@
+{
+  "log": "世界因為一場巨大的電磁風暴而崩毀。\n\n你在合太大學生雞新館的地下秘密機器人實驗大樓醒來。\n備援燈光閃爍，空氣中帶著電路焦味。\n四周都是半毀的機器人設備。\n\n你的目標：在探索這座大樓時，建造一台能帶你逃離的求生機器人。\n\n按 ENTER 開始冒險。\n\n[Turn 1]\n你來到避難室入口，四周一片漆黑。緊急燈泡閃爍，牆上掛著破損的逃生地圖。你感覺到這個地方似乎不太安全。\n\n[移動] 從 bunker_entrance 前往 corridor\n\n[Turn 2]\n你繼續沿著地下走廊前進，感覺到走廊兩旁的舊式管道發出低沉的轟鳴聲。突然，你聽到了一陣機械聲響，好像有機器在附近運轉。\n\n[選項] 尋找掩護物\n\n[Turn 3]\nYou are exploring a corridor in the facility when you come across a locked door. You remember that in software engineering, what is a design pattern that can help manage access to an object?\n\n[Quiz] Q: What design pattern can help manage access to an object in software engineering?\nAns: D, Correct: C\n\n[Turn 4]\n你來到狹長昏暗的走廊，裸露的電線不時冒出火花，讓你感到有些不安。你聽到了遠處嗡嗡作響的聲音，讓你感到一絲恐懼。\n\n[選項] 檢查電線\n\n[Turn 5]\n你在狹長昏暗的走廊中發現一些閃爍的電線，電線看起來很老舊，你忍不住想要檢查它們是否仍然運作正常。\n\n[選項] 檢查電線\n\n[Turn 6]\n你在走廊上巧遇一位機器人工程師，他向你提出一個問題。\n\n[Quiz] Q: 在機器人工程中，以下哪個部件通常用來感知外部環境？\nAns: A, Correct: A\n\n[Turn 7]\n你來到狹長昏暗的走廊，裸露的電線冒著火花，讓你感到不安。突然你聽到了一些怪異的聲音從走廊深處傳來。\n\n[選項] 繼續探索走廊\n\n[Turn 8]\n你繼續在地下走廊探索，突然一陣強風吹來，你感覺到有什麼東西從走廊盡頭飛奔而來。\n\n[選項] 快步後退\n\n[Turn 9]\n你來到走廊，這裡充滿了各種機器人工程的設施和設備。你看到一台機器人正在進行檢修，你想要加入他們的行列。\n\n[Quiz] Q: 在機器人工程中，以下哪個部件是最常用的感測器？\nAns: D, Correct: C\n\n[Turn 10]\n你來到地下走廊，狹長昏暗的走廊中裸露的電線時不時冒出火花，讓你感到非常不安。\n\n[移動] 從 corridor 前往 bunker_entrance\n\n[Turn 11]\n你來到避難室入口，緊急燈泡閃爍，牆上掛著破損的逃生地圖。你感覺到一陣恐慌，周遭的氣氛讓你感到不安。\n\n[選項] 仔細檢查避難室入口\n\n[Turn 12]\n你正站在地堡入口，眼前一片黑暗，只聽到遠處傳來陣陣低吟。突然，一道閃光從黑暗中閃過，引起了你的注意。\n\n[Quiz] Q: 在機器人工程中，哪一個組件負責控制機器人的運動和行為？\nAns: D, Correct: A\n",
+  "turn": 12,
+  "chapter": 1,
+  "location": "bunker_entrance",
+  "profession": "software",
+  "level": 4,
+  "hp": 0,
+  "knowledge_score": 5,
+  "robot_parts": {
+    "power": false,
+    "motor": false,
+    "sensors": false,
+    "control": false
+  },
+  "flags": {},
+  "inventory": [],
+  "danger_level": 10,
+  "is_game_over": true,
+  "is_win": false
+}
